@@ -1,0 +1,12 @@
+baseurl = "http://stevefrancia.com/"
+languageCode = "en-us"
+title = "Steve Francia is my Name"
+theme = "instant"
+
+[params]
+introLine = "Hello People, My Name is"
+yourName = "Steve Francia"
+tagLine = "Leader, Hacker & Writer"
+footerLine1 = "Gopher, Speaker & Father"
+footerLine2 = "Made in NYC"
+footerLine3 = "made by spf13 with <a href='http://gohugo.io'>HUGO</a>"

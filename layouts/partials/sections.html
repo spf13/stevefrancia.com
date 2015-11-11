@@ -1,0 +1,19 @@
+{{ range where .Data.Pages "Title" "About Steve Francia" }}
+   {{ .Render "paragraph" }}
+{{ end }}
+
+
+  {{ $.Scratch.Set "id" "works" }}
+  {{ $.Scratch.Set "name" "work" }}
+  {{ $.Scratch.Set "title" "Recent Work" }}
+  {{ partial "row" . }}
+
+  {{ $.Scratch.Set "id" "projects" }}
+  {{ $.Scratch.Set "name" "project" }}
+  {{ $.Scratch.Set "title" "Notable Projects" }}
+  {{ partial "row" . }}
+
+  {{ $.Scratch.Set "id" "book" }}
+  {{ $.Scratch.Set "name" "books" }}
+  {{ $.Scratch.Set "title" "Authored Works" }}
+  {{ partial "row" . }}
