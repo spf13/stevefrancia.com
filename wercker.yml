@@ -1,0 +1,4 @@
+box: debian
+build:
+  steps:
+      - arjen/hugo-build@1.6.1
