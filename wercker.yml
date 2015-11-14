@@ -1,12 +1,22 @@
 box: debian
 build:
   steps:
+      - script:
+          name: install git
+          code: |
+              apt-get update
+              apt-get install git -y
+      - script:
+          name: clone theme
+          code: |
+              mkdir themes
+              git clone --depth 1 https://github.com/spf13/instant.git themes/instant/
       - arjen/hugo-build@1.6.1
 deploy:
     steps:
     - s3sync:
         source_dir: public/
-        delete-removed: true
+        delete-removed: false
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
