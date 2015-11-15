@@ -4,4 +4,5 @@ title = "cobra"
 
 thumbnail = "img/cobra.png"
 href="http://cobracli.com"
+label="CLI commander library"
 +++

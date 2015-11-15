@@ -4,6 +4,6 @@ title = "viper"
 
 thumbnail = "img/viper.png"
 href="http://github.com/spf13/viper"
-
+label="Universal Config library"
 +++
 

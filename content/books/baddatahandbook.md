@@ -4,5 +4,6 @@ title = "bad data handbook"
 
 thumbnail = "img/badDataHandbook.png"
 href="http://amzn.to/20PI6PX"
+label="co-author"
 +++
 

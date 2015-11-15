@@ -4,5 +4,6 @@ title = "goinaction"
 
 thumbnail = "img/goInAction.png"
 href="http://amzn.to/1HEvtkg"
+label="forward"
 +++
 

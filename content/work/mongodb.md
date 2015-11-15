@@ -4,4 +4,5 @@ title = "mongodb"
 
 thumbnail = "img/mongodb.png"
 href="http://mongodb.com"
+label="Chief Developer Advocate"
 +++

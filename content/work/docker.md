@@ -4,4 +4,5 @@ title = "docker"
 
 thumbnail = "img/docker.png"
 href="http://docker.com"
+label="Chief Operator"
 +++

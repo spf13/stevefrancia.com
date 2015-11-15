@@ -4,5 +4,6 @@ title = "hugo"
 
 thumbnail = "img/hugo.png"
 href="http://gohugo.io"
+label="Fastest Website Engine"
 +++
 

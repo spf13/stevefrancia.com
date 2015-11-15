@@ -4,5 +4,6 @@ title = "mongodbandphp"
 
 thumbnail = "img/mongodbAndPHP.png"
 href="http://amzn.to/20PIaPE"
+label="Author"
 +++
 
